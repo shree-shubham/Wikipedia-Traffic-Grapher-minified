@@ -1,0 +1,34 @@
+.loader {
+	display:    none;
+	position:   fixed;
+	width:      100%;
+	height:     100%;
+	z-index:    1000;
+	top:        0;
+	left:       0;
+	background: rgba( 255, 255, 255, .8 ) url('../images/loading.png') 50% 50% no-repeat;
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .loader {
+    display: block;
+}
+
+a.key:link {
+    color: #FFFFFF;
+}
+
+a.key:visited {
+    color: #FFFFFF;
+}
+
+a.key:hover {
+    color: #F5F5F5;
+}
+
+a.key:active {
+    color: #FFFFFF;
+}
